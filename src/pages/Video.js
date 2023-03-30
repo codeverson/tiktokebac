@@ -7,14 +7,12 @@ function Video() {
   const [play, setPlay] = useState(false);
 
   function handleStart() {
-    if (play == false) {
-      videoRef.current.play();
-      setPlay(true);
-    }
-
-    if (play == true) {
+    if (play) {
       videoRef.current.pause();
       setPlay(false);
+    } else {
+      videoRef.current.play();
+      setPlay(true);
     }
   }
 
