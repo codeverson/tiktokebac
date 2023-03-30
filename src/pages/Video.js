@@ -1,5 +1,7 @@
 import React from "react";
 import "./video.css";
+import mp4 from "./mp4/Cremosinho.mp4";
+
 
 function Video() {
   return (
@@ -8,7 +10,7 @@ function Video() {
         className="video__player"
         controls
         loop
-        src="./src/mp4/cremosinho.mp4"
+        src={mp4}
       ></video>
     </div>
   );
