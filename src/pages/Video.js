@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
+import VideoFooter from "./components/footer/VideoFooter"
 import "./video.css";
 import mp4 from "../mp4/Cremosinho.mp4";
+
 
 function Video() {
   const videoRef = useRef(null);
@@ -25,6 +27,8 @@ function Video() {
         loop
         src={mp4}
       ></video>
+      {/*Side bar*/}
+      <VideoFooter />
     </div>
   );
 } 
