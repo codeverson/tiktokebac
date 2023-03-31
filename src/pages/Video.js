@@ -17,7 +17,8 @@ function Video() {
       setPlay(true);
     }
   }
-    return (
+  
+  return (
     <div className="video">
       <video
         className="video__player"
