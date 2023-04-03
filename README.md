@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Visão Geral
+O objetivo deste projeto é criar um clone funcional do TikTok que permita aos usuários criar, visualizar e compartilhar vídeos curtos. O projeto é dividido em duas partes principais:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Backend - Fornece a API para gerenciar os dados dos usuários, vídeos e interações entre eles.
+Frontend - Fornece a interface do usuário para criar, visualizar e compartilhar vídeos.
+Este README foca no frontend do projeto.
 
-## Available Scripts
+Tecnologias Utilizadas
+O frontend do projeto foi construído com as seguintes tecnologias:
 
-In the project directory, you can run:
- 
-### `npm start`
+React: uma biblioteca JavaScript para criar interfaces de usuário.
+React Router: uma biblioteca para roteamento de aplicativos de página única.
+Redux: uma biblioteca para gerenciamento de estado.
+Material-UI: uma biblioteca de componentes React para criar interfaces de usuário.
+Como executar o projeto
+Para executar o projeto, siga as etapas abaixo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone o repositório do projeto.
+Navegue até o diretório raiz do projeto.
+Execute o comando npm install para instalar as dependências.
+Execute o comando npm start para iniciar o servidor de desenvolvimento.
+Abra um navegador e navegue até http://localhost:3000 para visualizar o aplicativo.
+Funcionalidades do aplicativo
+O aplicativo oferece as seguintes funcionalidades:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Criação de vídeos curtos: o usuário pode criar vídeos curtos diretamente no aplicativo.
+Visualização de vídeos: o usuário pode visualizar os vídeos criados por outros usuários.
+Compartilhamento de vídeos: o usuário pode compartilhar vídeos com outros usuários.
+Curtidas: o usuário pode curtir os vídeos criados por outros usuários.
+Comentários: o usuário pode comentar sobre os vídeos criados por outros usuários.
+Pesquisa: o usuário pode pesquisar por outros usuários e vídeos específicos.
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma nova issue ou um pull request.
